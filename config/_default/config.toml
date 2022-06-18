@@ -1,0 +1,29 @@
+######################## default configuration ####################
+baseURL = "https://examplesite.org/"
+title = "The Article"
+theme = "the-article"
+# post pagination
+paginate = "7"
+# post excerpt
+summaryLength = "20"
+# google analytics
+googleAnalytics = "" # example : UA-123-45
+# disqus short name
+disqusShortname = "themefisher-template" # get your shortname form here : https://disqus.com
+
+
+
+############################# Outputs ##############################
+[permalinks]
+posts = "/:sections/:title/"
+
+[outputs]
+home = ["HTML", "JSON", "RSS"]
+
+[markup.goldmark.renderer]
+unsafe= true
+
+[markup.tableOfContents]
+startLevel = 0
+endLevel = 6
+ordered = false
