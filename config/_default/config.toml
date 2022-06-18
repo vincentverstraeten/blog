@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://localhost:1313/"
+baseURL = "https://bespoke-dodol-167583.netlify.app"
 title = "The Healthy Endpoint"
 theme = "the-article"
 # post pagination
