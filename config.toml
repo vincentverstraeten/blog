@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://examplesite.org/"
-title = "The Healthy Endpoint"
+title = "test"
 theme = "the-article"
 # post pagination
 paginate = "7"
