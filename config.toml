@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://examplesite.org/"
+baseURL = "https://inquisitive-begonia-e4df49"
 title = "test"
 theme = "the-article"
 # post pagination
